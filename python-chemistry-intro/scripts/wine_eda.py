@@ -56,7 +56,7 @@ def main():
     #sns.pairplot(df[['alcohol', 'malic_acid', 'color_intensity', 'proline', 'target']], hue='target', diag_kind='kde', palette='husl')
     #plt.show()
     sns.boxplot(x='target', y='alcohol', data=df, palette='Set2')
-    plt.show()
+    plt.show() 
 
     # --- 5. Scaling and PCA ---
     # separate features (X) and target (y)
