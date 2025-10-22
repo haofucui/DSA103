@@ -4,5 +4,5 @@ import seaborn as sns
 import scipy as stats
 #import os
 #print(os.listdir())
-df = pd.read_csv("DOWNLOAD-UoWCQeb-R3K0CUBQN46H7wn4uoEtb4q872FJPVFz4eE_eq_.csv")
-df.head()
+df = pd.read_csv("DOWNLOAD-UoWCQeb-R3K0CUBQN46H7wn4uoEtb4q872FJPVFz4eE_eq_.csv", delimiter=";")
+print(df.head())
