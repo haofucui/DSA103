@@ -369,6 +369,8 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
+=======
 name = "contourpy"
 version = "1.3.0"
 source = { registry = "https://pypi.org/simple/" }
@@ -613,6 +615,7 @@ wheels = [
 ]
 
 [[package]]
+>>>>>>> 292c56aa1324272f8a21c2c29a5dcd0749dc9d74
 name = "debugpy"
 version = "1.8.17"
 source = { registry = "https://pypi.org/simple/" }
@@ -678,8 +681,14 @@ version = "0.0.1"
 source = { editable = "." }
 dependencies = [
     { name = "jupyter" },
+<<<<<<< HEAD
+    { name = "numpy", version = "2.0.2", source = { registry = "https://pypi.org/simple/" }, marker = "python_full_version < '3.10'" },
+    { name = "numpy", version = "2.2.6", source = { registry = "https://pypi.org/simple/" }, marker = "python_full_version == '3.10.*'" },
+    { name = "numpy", version = "2.3.3", source = { registry = "https://pypi.org/simple/" }, marker = "python_full_version >= '3.11'" },
+=======
     { name = "matplotlib", version = "3.9.4", source = { registry = "https://pypi.org/simple/" }, marker = "python_full_version < '3.10'" },
     { name = "matplotlib", version = "3.10.6", source = { registry = "https://pypi.org/simple/" }, marker = "python_full_version >= '3.10'" },
+>>>>>>> 292c56aa1324272f8a21c2c29a5dcd0749dc9d74
     { name = "pandas" },
     { name = "pre-commit" },
     { name = "pytest" },
@@ -694,7 +703,11 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "jupyter", specifier = ">=1.1.1" },
+<<<<<<< HEAD
+    { name = "numpy", specifier = ">=2.0.2" },
+=======
     { name = "matplotlib", specifier = ">=3.9.4" },
+>>>>>>> 292c56aa1324272f8a21c2c29a5dcd0749dc9d74
     { name = "pandas", specifier = ">=2.3.3" },
     { name = "pre-commit", specifier = ">=4.0.1" },
     { name = "pytest", specifier = ">=8.3.5" },
@@ -745,6 +758,8 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
+=======
 name = "fonttools"
 version = "4.60.1"
 source = { registry = "https://pypi.org/simple/" }
@@ -810,6 +825,7 @@ wheels = [
 ]
 
 [[package]]
+>>>>>>> 292c56aa1324272f8a21c2c29a5dcd0749dc9d74
 name = "fqdn"
 version = "1.5.1"
 source = { registry = "https://pypi.org/simple/" }
@@ -883,6 +899,8 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/76/66/650a33bd90f786193e4de4b3ad86ea60b53c89b669a5c7be931fac31cdb0/importlib_metadata-8.7.0.tar.gz", hash = "sha256:d13b81ad223b890aa16c5471f2ac3056cf76c5f10f82d6f9292f0b415f389000", size = 56641, upload-time = "2025-04-27T15:29:01.736Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/20/b0/36bd937216ec521246249be3bf9855081de4c5e06a0c9b4219dbeda50373/importlib_metadata-8.7.0-py3-none-any.whl", hash = "sha256:e5dd1551894c77868a30651cef00984d50e1002d06942a7101d34870c5f02afd", size = 27656, upload-time = "2025-04-27T15:29:00.214Z" },
+<<<<<<< HEAD
+=======
 ]
 
 [[package]]
@@ -895,6 +913,7 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/cf/8c/f834fbf984f691b4f7ff60f50b514cc3de5cc08abfc3295564dd89c5e2e7/importlib_resources-6.5.2.tar.gz", hash = "sha256:185f87adef5bcc288449d98fb4fba07cea78bc036455dd44c5fc4a2fe78fed2c", size = 44693, upload-time = "2025-01-03T18:51:56.698Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/a4/ed/1f1afb2e9e7f38a545d628f864d562a5ae64fe6f7a10e28ffb9b185b4e89/importlib_resources-6.5.2-py3-none-any.whl", hash = "sha256:789cfdc3ed28c78b67a06acb8126751ced69a3d5f79c095a98298cd8a760ccec", size = 37461, upload-time = "2025-01-03T18:51:54.306Z" },
+>>>>>>> 292c56aa1324272f8a21c2c29a5dcd0749dc9d74
 ]
 
 [[package]]
@@ -1076,6 +1095,8 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
+=======
 name = "joblib"
 version = "1.5.2"
 source = { registry = "https://pypi.org/simple/" }
@@ -1085,6 +1106,7 @@ wheels = [
 ]
 
 [[package]]
+>>>>>>> 292c56aa1324272f8a21c2c29a5dcd0749dc9d74
 name = "json5"
 version = "0.12.1"
 source = { registry = "https://pypi.org/simple/" }
@@ -1350,6 +1372,8 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
+=======
 name = "kiwisolver"
 version = "1.4.7"
 source = { registry = "https://pypi.org/simple/" }
@@ -1567,6 +1591,7 @@ wheels = [
 ]
 
 [[package]]
+>>>>>>> 292c56aa1324272f8a21c2c29a5dcd0749dc9d74
 name = "lark"
 version = "1.3.0"
 source = { registry = "https://pypi.org/simple/" }
@@ -1672,6 +1697,8 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
+=======
 name = "matplotlib"
 version = "3.9.4"
 source = { registry = "https://pypi.org/simple/" }
@@ -1816,6 +1843,7 @@ wheels = [
 ]
 
 [[package]]
+>>>>>>> 292c56aa1324272f8a21c2c29a5dcd0749dc9d74
 name = "matplotlib-inline"
 version = "0.1.7"
 source = { registry = "https://pypi.org/simple/" }
@@ -2483,6 +2511,8 @@ source = { registry = "https://pypi.org/simple/" }
 sdist = { url = "https://files.pythonhosted.org/packages/b0/77/a5b8c569bf593b0140bde72ea885a803b82086995367bf2037de0159d924/pygments-2.19.2.tar.gz", hash = "sha256:636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887", size = 4968631, upload-time = "2025-06-21T13:39:12.283Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/c7/21/705964c7812476f378728bdf590ca4b771ec72385c533964653c68e86bdc/pygments-2.19.2-py3-none-any.whl", hash = "sha256:86540386c03d588bb81d44bc3928634ff26449851e99741617ecb9037ee5ec0b", size = 1225217, upload-time = "2025-06-21T13:39:07.939Z" },
+<<<<<<< HEAD
+=======
 ]
 
 [[package]]
@@ -2492,6 +2522,7 @@ source = { registry = "https://pypi.org/simple/" }
 sdist = { url = "https://files.pythonhosted.org/packages/f2/a5/181488fc2b9d093e3972d2a472855aae8a03f000592dbfce716a512b3359/pyparsing-3.2.5.tar.gz", hash = "sha256:2df8d5b7b2802ef88e8d016a2eb9c7aeaa923529cd251ed0fe4608275d4105b6", size = 1099274, upload-time = "2025-09-21T04:11:06.277Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/10/5e/1aa9a93198c6b64513c9d7752de7422c06402de6600a8767da1524f9570b/pyparsing-3.2.5-py3-none-any.whl", hash = "sha256:e38a4f02064cf41fe6593d328d0512495ad1f3d8a91c4f73fc401b3079a59a5e", size = 113890, upload-time = "2025-09-21T04:11:04.117Z" },
+>>>>>>> 292c56aa1324272f8a21c2c29a5dcd0749dc9d74
 ]
 
 [[package]]
@@ -3019,6 +3050,8 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
+=======
 name = "scikit-learn"
 version = "1.6.1"
 source = { registry = "https://pypi.org/simple/" }
@@ -3307,6 +3340,7 @@ wheels = [
 ]
 
 [[package]]
+>>>>>>> 292c56aa1324272f8a21c2c29a5dcd0749dc9d74
 name = "send2trash"
 version = "1.8.3"
 source = { registry = "https://pypi.org/simple/" }
@@ -3380,6 +3414,8 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
+=======
 name = "threadpoolctl"
 version = "3.6.0"
 source = { registry = "https://pypi.org/simple/" }
@@ -3389,6 +3425,7 @@ wheels = [
 ]
 
 [[package]]
+>>>>>>> 292c56aa1324272f8a21c2c29a5dcd0749dc9d74
 name = "tinycss2"
 version = "1.4.0"
 source = { registry = "https://pypi.org/simple/" }
